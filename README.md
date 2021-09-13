@@ -47,7 +47,9 @@ POST : localhost:8080/api/add
 Post Cases : 
 
 1-> save Gateways without devices 
+
 BODY : 
+
 {
     "gateways" : {
         "name" : "HG5007",
@@ -58,6 +60,7 @@ BODY :
 
 
 2 -> save Gateways with its Devices 
+
 BODY : 
 
 {
@@ -78,7 +81,9 @@ BODY :
 }
 
 3 -> save gateway with devices that related to another gateway 
+
 BODY :
+
 {
     "gateways" : {
         "name" : "HG5007",
@@ -99,7 +104,9 @@ BODY :
 }
 
 4 -> save 2 devices one for gateway object in the body , second device for gateway already exist in the database
+
 BODY :
+
 {
     "gateways" : {
         "name" : "HG5007",
@@ -121,7 +128,9 @@ BODY :
 
 
 5 -> save devices only that related to existing gateway 
+
 BODY :
+
 {
     "devices" : [
         {
