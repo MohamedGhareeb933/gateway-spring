@@ -1,7 +1,6 @@
 
 {
     "gateways" : {
-        "serial" : "serialno0098abc990",
         "name" : "HG5007",
         "ipAddress": "192.168.1.2"
     }, 
@@ -21,7 +20,6 @@
 
 {
     "gateways" : {
-        "serial" : "serialno0098abc990",
         "name" : "HG5007",
         "ipAddress": "192.168.1.2"
     }, 
@@ -43,7 +41,6 @@
 
 {
     "gateways" : {
-        "serial" : "serialno0098abc990",
         "name" : "HG5007",
         "ipAddress": "192.168.1.2"
     }, 
@@ -63,7 +60,6 @@
 
 {
     "gateways" : {
-        "serial" : "serialno0098abc990",
         "name" : "HG5007",
         "ipAddress": "192.168.1.2"
     }, 
@@ -100,7 +96,6 @@
 
 {
     "gateways" : {
-        "serial" : "serialno0098abc990",
         "name" : "HG5007",
         "ipAddress": "192.168.1.2"
     }
