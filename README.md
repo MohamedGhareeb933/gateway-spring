@@ -8,8 +8,10 @@ simple demo for creating server side gateway deivces
 # step 01: create users 
 # step 02 : create schema and tables 
 
-* user name , password , schema name should be used in spring properties file, take notes before changing it 
+* user name , password , schema name should be used in spring properties file, take notes before changing it.
+
 schema and table sql script has both structure of gateway table and device table , and has many to one relation between device and gateway 
+
 
 * the spring program use java 11 
 
@@ -34,8 +36,10 @@ http://localhost:8080/api
 
 gateways endpoint: 
 http://localhost:8080/api/gateways
+
 devices endpoint : 
 http://localhost:8080/api/devices
+
 
 End point for post 
 POST : localhost:8080/api/add 
