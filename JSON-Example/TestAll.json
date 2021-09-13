@@ -1,0 +1,107 @@
+
+{
+    "gateways" : {
+        "serial" : "serialno0098abc990",
+        "name" : "HG5007",
+        "ipAddress": "192.168.1.2"
+    }, 
+    "devices" : [
+        {
+            "vendor" : "wifi",
+            "status" : true
+        },
+        {
+            "vendor" : "ethernet",
+            "status" : false
+        }
+    ]
+}
+
+
+
+{
+    "gateways" : {
+        "serial" : "serialno0098abc990",
+        "name" : "HG5007",
+        "ipAddress": "192.168.1.2"
+    }, 
+    "devices" : [
+        {
+            "vendor" : "wifi",
+            "status" : true,
+            "gateways" : { "id" : 19 }
+        },
+        {
+            "vendor" : "ethernet",
+            "status" : false,
+            "gateways" : {"id" : 18}
+        }
+    ]
+}
+
+
+
+{
+    "gateways" : {
+        "serial" : "serialno0098abc990",
+        "name" : "HG5007",
+        "ipAddress": "192.168.1.2"
+    }, 
+    "devices" : [
+        {
+            "vendor" : "wifi",
+            "status" : true,
+            "gateways" : { "id" : 30 }
+        },
+        {
+            "vendor" : "ethernet",
+            "status" : false
+        }
+    ]
+}
+
+
+{
+    "gateways" : {
+        "serial" : "serialno0098abc990",
+        "name" : "HG5007",
+        "ipAddress": "192.168.1.2"
+    }, 
+    "devices" : [
+        {
+            "vendor" : "wifi",
+            "status" : true,
+        },
+        {
+            "vendor" : "ethernet",
+            "status" : false,
+            "gateways" : {"id" : 34}
+        }
+    ]
+}
+
+
+{
+    "devices" : [
+        {
+            "vendor" : "wifi",
+            "status" : true,
+            "gateways" : { "id" : 19 }
+        },
+        {
+            "vendor" : "ethernet",
+            "status" : false,
+            "gateways" : {"id" : 18}
+        }
+    ]
+}
+
+
+
+{
+    "gateways" : {
+        "serial" : "serialno0098abc990",
+        "name" : "HG5007",
+        "ipAddress": "192.168.1.2"
+    }
+}

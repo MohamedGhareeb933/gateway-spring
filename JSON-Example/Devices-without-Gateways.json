@@ -1,0 +1,16 @@
+
+{
+    "devices" : [
+        {
+            "vendor" : "wifi",
+            "status" : true,
+            "gateways" : { "id" : 19 }
+        },
+        {
+            "vendor" : "ethernet",
+            "status" : false,
+            "gateways" : {"id" : 18}
+        }
+    ]
+}
+

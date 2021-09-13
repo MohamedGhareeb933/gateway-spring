@@ -1,0 +1,20 @@
+
+{
+    "gateways" : {
+        "serial" : "serialno0098abc990",
+        "name" : "HG5007",
+        "ipAddress": "192.168.1.2"
+    }, 
+    "devices" : [
+        {
+            "vendor" : "wifi",
+            "status" : true,
+            "gateways" : { "id" : 19 }
+        },
+        {
+            "vendor" : "ethernet",
+            "status" : false,
+            "gateways" : {"id" : 18}
+        }
+    ]
+}
