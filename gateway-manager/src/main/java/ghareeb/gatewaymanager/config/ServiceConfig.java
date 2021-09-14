@@ -1,6 +1,7 @@
 package ghareeb.gatewaymanager.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+@Configuration
 public class ServiceConfig implements RepositoryRestConfigurer {
 
     private EntityManager entityManager;
