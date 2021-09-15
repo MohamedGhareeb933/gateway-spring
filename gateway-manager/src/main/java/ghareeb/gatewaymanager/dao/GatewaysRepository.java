@@ -8,4 +8,5 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @CrossOrigin
 @RepositoryRestResource(collectionResourceRel = "gateways", path = "gateways")
 public interface GatewaysRepository extends JpaRepository<Gateways, Long> {
+    
 }
